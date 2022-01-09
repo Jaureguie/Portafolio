@@ -96,10 +96,11 @@ header{
     top: 30px;
     right: 30px;
     background: #fff;
-    width: 60 px;
+    width: 60px;
     height: 60px;
     cursor:pointer;
     border-radius: 10px;
+    z-index: 1;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -337,8 +338,12 @@ header{
     margin-top:20px;
     width:100%;
     font-weight: 400;
+    color: black;
 }
-
+.n-expert a{
+    text-decoration: none; 
+    color: black;
+}
 /*Footer*/
 
 footer{
